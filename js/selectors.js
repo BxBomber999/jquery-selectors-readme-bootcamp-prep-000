@@ -2,12 +2,12 @@
 var document = "index.html"
 
 $('selector-goes-here')
-function paragrapghSelector() {
-  return document.$('p')
+function paragraphSelector() {
+  return $('p')
 }
 
 function lastImageSelector() {
-  return document.$('img:last')
+  return $('img:last')
 }
 
 function ninjaBabySelector() {

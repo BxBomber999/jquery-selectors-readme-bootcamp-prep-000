@@ -1,5 +1,4 @@
 // declare your functions here...
-var document = "index.html"
 
 $('selector-goes-here')
 function paragraphSelector() {
@@ -11,13 +10,13 @@ function lastImageSelector() {
 }
 
 function ninjaBabySelector() {
-  return document.$('#baby-ninja')
+  return $('#baby-ninja')
 }
 
 function divSelector() {
-  return document.$('div.pics')
+  return $('div.pics')
 }
 
 function firstListItem() {
-  return document.$("ul li:first-child #pic-list")
+  return $("ul li:first-child #pic-list")
 }
